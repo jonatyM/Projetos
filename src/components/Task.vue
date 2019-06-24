@@ -26,8 +26,9 @@ export default {
 .task {
     box-sizing: border-box;
     width: 350px;
-    height: 150px;
+    height: 30px;
     padding: 10px;
+    margin: 5px;
     border-radius: 8px;
     font-size: 2rem;
     font-weight: 300;
@@ -39,6 +40,7 @@ export default {
 .pending{
     border-left: 12px solid red;
     background-color: red;
+
 }
 
 .done{

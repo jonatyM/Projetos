@@ -15,7 +15,7 @@ export default {
     return{
       tasks:[
         {name: 'Compra remedio', pending: false},
-        {name: 'Pasear com o cachorro', pending: true}
+        {name: 'Passear com o cachorro', pending: true}
       ]
     }
   }

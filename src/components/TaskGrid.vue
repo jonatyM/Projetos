@@ -1,6 +1,11 @@
 <template>
       <div class="task-grid">
-          <Task v-for="task in tasks" :key="task.name" :task="task"/>
+         
+         <template v-if="tasks.length">
+              <Task v-for="task in tasks" :key="task.name" :task="task"/>
+         </template>
+         <p v-else>Sua vida estar em dias :)</p>
+
       </div>
 </template>
 
